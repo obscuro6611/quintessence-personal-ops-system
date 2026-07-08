@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      QUINT_USER: reme
+      QUINT_PASSWORD: quintessence-local
+      SECRET_KEY: local-development-secret-change-me
+      DATABASE_URL: sqlite:///./data/quintessence.db
+      STORAGE_DIR: ./storage
+      CORS_ORIGINS: http://localhost:5173
+    volumes:
+      - ./backend/data:/app/data
+      - ./backend/storage:/app/storage
+    ports:
+      - "8000:8000"
+  frontend:
+    build: ./frontend
+    environment:
+      VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend

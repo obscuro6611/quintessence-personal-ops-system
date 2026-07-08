@@ -1,0 +1,49 @@
+﻿{
+  "projects": [
+    {
+      "name": "Example Operations Dashboard",
+      "objective": "Create a local dashboard to track operational priorities, blockers, and decisions.",
+      "status": "active",
+      "priority": "high"
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "Workflow Design",
+      "description": "Designing structured workflows that convert information into action.",
+      "score": 72
+    },
+    {
+      "name": "Evidence Management",
+      "description": "Capturing artifacts and outcomes as reusable proof of progress.",
+      "score": 68
+    }
+  ],
+  "evidence": [
+    {
+      "title": "Example process improvement note",
+      "evidence_type": "document",
+      "summary": "Fictional example of an operational improvement artifact.",
+      "tags": "sample,operations,evidence"
+    }
+  ],
+  "decisions": [
+    {
+      "title": "Use local-first architecture",
+      "decision": "Keep the application local-first for privacy and simplicity.",
+      "rationale": "The system manages personal operational and career data.",
+      "consequences": "No cloud account or external service is required."
+    }
+  ],
+  "weekly_review": {
+    "completed_work": [
+      "Created fictional sample project",
+      "Captured sample evidence"
+    ],
+    "blockers": [],
+    "recommended_next_actions": [
+      "Add screenshots using sample data",
+      "Keep private data out of Git"
+    ]
+  }
+}
