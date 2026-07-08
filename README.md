@@ -41,3 +41,26 @@ Private runtime data such as databases, uploads, backups, exports, and environme
 ## Portfolio Context
 
 This repository is intended as a portfolio-safe version of Quintessence. It demonstrates full-stack development, local-first architecture, evidence management, workflow design, knowledge organisation, and systems thinking.
+
+## Screenshots
+
+### Mission Control
+
+assets/screenshots/02-mission-control.png
+
+### Projects
+
+assets/screenshots/03-projects.png
+
+### Global Search
+
+assets/screenshots/07-global-search.png
+
+### Backup / Export
+
+assets/screenshots/09-backup-export.png
+
+### Settings
+
+assets/screenshots/10-settings.png
+
